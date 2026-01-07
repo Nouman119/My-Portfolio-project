@@ -10,9 +10,13 @@
 }
 
 header{
-  background-color: #FFF8F3;
+  
   padding-top: 30px;
+  background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
 }
+
 
 /* Shared Style  */
 
@@ -61,3 +65,46 @@ nav .nav-list {
 }
 
 
+/* Hero section  */
+
+
+.hero {
+	/* margin: 46px 38px 0 230px; */
+	/* width: 85%; */
+	/* max-width: 1140px; */
+	margin: 0px 38px 0px 187px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero-info h2{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #474747;
+}
+
+.hero-info h1{
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.hero-info p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.hero-info-button{
+  gap: 30px;
+  display: flex;
+}
+
+.hero-img img{
+  max-width: 584px;
+  vertical-align: middle;
+}
